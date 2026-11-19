@@ -4,19 +4,27 @@
     "slug": "plantcaremobileapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/plantdiary-icon.png",
     "userInterfaceStyle": "light",
+
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/plant-diary.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#92ce97"
     },
+
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./assets/plantdiary-icon.png",
         "backgroundColor": "#92ce97"
       },
       "package": "com.anonymous.plantcaremobileapp"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "a10098d0-6d6f-43e3-aa73-584525776446"
+      }
     }
   }
 }

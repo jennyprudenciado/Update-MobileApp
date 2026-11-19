@@ -88,55 +88,87 @@ export const addPlantStyles = StyleSheet.create({
     alignItems: "center",
     marginTop: 20,
   },
-  // Image Adjustment Styles
-  adjustmentsContainer: {
-    marginVertical: 15,
-    marginHorizontal: 16,
-    paddingHorizontal: 16,
-    paddingVertical: 16,
-    backgroundColor: "#f5f5f5",
+
+  lookupButton: {
+    backgroundColor: COLORS.secondary,
+    paddingVertical: 12,
     borderRadius: 12,
+    alignItems: "center",
+    marginBottom: 12,
+  },
+
+  lookupButtonText: {
+    color: COLORS.primaryDark,
+    fontWeight: "700",
+  },
+
+  lookupCard: {
+    backgroundColor: COLORS.white,
     borderWidth: 1,
     borderColor: COLORS.border,
-  },
-
-  adjustmentsTitle: {
-    fontSize: 14,
-    fontWeight: "700",
-    color: COLORS.primaryDark,
+    borderRadius: 14,
+    padding: 14,
     marginBottom: 14,
+    gap: 8,
   },
 
-  sliderGroup: {
-    marginBottom: 16,
+  lookupImage: {
+    width: "100%",
+    height: 150,
+    borderRadius: 10,
   },
 
-  sliderLabel: {
-    fontSize: 12,
+  lookupTitle: {
+    color: COLORS.primaryDark,
+    fontSize: 16,
+    fontWeight: "800",
+  },
+
+  lookupDescription: {
     color: COLORS.text,
-    marginBottom: 8,
+    fontStyle: "italic",
+  },
+
+  lookupExtract: {
+    color: COLORS.text,
+    lineHeight: 19,
+  },
+
+  lookupMessage: {
+    color: COLORS.text,
+    textAlign: "center",
+  },
+
+  lookupError: {
+    color: "#C94C4C",
     fontWeight: "600",
   },
 
-  slider: {
-    width: "100%",
-    height: 40,
-  },
-
-  resetButton: {
-    marginTop: 12,
-    paddingVertical: 10,
-    paddingHorizontal: 14,
-    backgroundColor: COLORS.white,
-    borderWidth: 1.5,
-    borderColor: COLORS.primary,
-    borderRadius: 10,
-    alignItems: "center",
-  },
-
-  resetButtonText: {
+  lookupLink: {
     color: COLORS.primary,
     fontWeight: "700",
-    fontSize: 13,
+  },
+
+  lookupSource: {
+    color: COLORS.text,
+    fontSize: 11,
+    opacity: 0.6,
+  },
+
+  resultRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 12,
+    paddingVertical: 6,
+  },
+
+  resultThumb: {
+    width: 52,
+    height: 52,
+    borderRadius: 10,
+    backgroundColor: COLORS.secondary,
+    justifyContent: "center",
+    alignItems: "center",
+    overflow: "hidden",
   },
 });

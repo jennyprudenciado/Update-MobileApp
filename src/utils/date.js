@@ -17,6 +17,7 @@ export const getNextWateringDate = (plant) => {
 };
 
 export const getDaysDifference = (date) => {
+  // Compare dates at midnight so the current time does not affect the status.
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 

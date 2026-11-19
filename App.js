@@ -1,2 +1,1 @@
-// root App.js
-export { default } from "./src/App";
+export { default } from "./src/PlantCare";
